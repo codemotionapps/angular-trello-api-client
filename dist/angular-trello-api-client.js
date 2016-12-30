@@ -58,6 +58,7 @@ angular.module('trello-api-client').provider('TrelloClient', function($authProvi
       authorizationEndpoint: TrelloClientConfig.authEndpoint + "/" + TrelloClientConfig.version + "/authorize",
       defaultUrlParams: ['response_type', 'key', 'return_url', 'expiration', 'scope', 'name'],
       requiredUrlParams: null,
+	  redirectUri: TrelloClientConfig.returnUrl,
       optionalUrlParams: null,
       scope: TrelloClientConfig.scope,
       scopeDelimiter: ',',
