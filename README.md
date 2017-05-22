@@ -3,15 +3,6 @@
 An angular Trello Client bypassing the Trello client.js (based on jQuery).
 This Client use [Satellizer](https://github.com/sahat/satellizer) for authentication.
 
-You don't know [Trello](trello.com)? Youhou, this is the day your life changed!
-
-## Installation
-
-```bash
-# Bower
-bower install angular-trello-api-client
-```
-
 ## Usage
 
 ```javascript
