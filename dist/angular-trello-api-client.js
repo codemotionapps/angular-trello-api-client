@@ -102,6 +102,7 @@
 			}
 			return TrelloClient;
 		};
+		this.$get.$inject = ["$location", "$http", "$window", "$auth", "$q"];
 	};
 	TrelloClient.$inject = ["$authProvider", "TrelloClientConfig"];
 
