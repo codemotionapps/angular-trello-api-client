@@ -1,6 +1,6 @@
 {
   "name": "angular-trello-api-client",
-  "version": "2.1.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicgirault/angular-trello-api-client.git"
+    "url": "git+https://github.com/codemotionapps/angular-trello-api-client.git"
   },
   "keywords": [
     "trello",
     "api",
-    "client"
+    "client",
+    "satellizer"
   ],
   "author": "Nicolas Girault",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicgirault/angular-trello-api-client/issues"
+    "url": "https://github.com/codemotionapps/angular-trello-api-client/issues"
   },
-  "homepage": "https://github.com/nicgirault/angular-trello-api-client#readme"
+  "homepage": "https://github.com/codemotionapps/angular-trello-api-client#readme",
+  "peerDependencies": {
+    "angular": "^1.5.0",
+    "satellizer": "^0.15.5"
+  }
 }
